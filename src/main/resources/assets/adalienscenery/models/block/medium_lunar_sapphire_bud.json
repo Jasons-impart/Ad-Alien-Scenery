@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "adalienscenery:block/medium_lunar_sapphire_bud"
+  }
+}

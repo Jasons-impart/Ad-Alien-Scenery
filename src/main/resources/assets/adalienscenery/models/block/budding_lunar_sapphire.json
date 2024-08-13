@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "adalienscenery:block/budding_lunar_sapphire"
+  }
+}

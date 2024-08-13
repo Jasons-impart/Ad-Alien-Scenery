@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "adalienscenery:block/lunar_sapphire_cluster"
+  }
+}
