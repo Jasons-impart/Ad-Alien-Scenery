@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "ad_astra:lunar_wastelands",
+  "features": "adalienscenery:lunar_sapphire_geode",
+  "step": "local_modifications"
+}

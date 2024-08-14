@@ -1,6 +1,8 @@
 package io.github.jasonsimpart.adalienscenery.data;
 
 import io.github.jasonsimpart.adalienscenery.AdAlienScenery;
+import io.github.jasonsimpart.adalienscenery.data.language.ChineseLanguageProvider;
+import io.github.jasonsimpart.adalienscenery.data.language.EnglishLanguageProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -21,5 +23,9 @@ public class DataEventHandler {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
         generator.addProvider(event.includeServer(), new WorldGenerationProvider(packOutput, lookupProvider));
+        generator.addProvider(event.includeClient(), new EnglishLanguageProvider(packOutput));
+        generator.addProvider(event.includeClient(), new ChineseLanguageProvider(packOutput));
+        generator.addProvider(event.includeClient(), new ItemModelProvider(packOutput, existingFileHelper));
+        generator.addProvider(event.includeClient(), new BlockModelProvider(packOutput, existingFileHelper));
     }
 }

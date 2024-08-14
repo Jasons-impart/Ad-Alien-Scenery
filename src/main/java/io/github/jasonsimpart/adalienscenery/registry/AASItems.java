@@ -3,11 +3,14 @@ package io.github.jasonsimpart.adalienscenery.registry;
 import io.github.jasonsimpart.adalienscenery.AdAlienScenery;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.List;
 
 public class AASItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, AdAlienScenery.MODID);
@@ -28,6 +31,15 @@ public class AASItems {
         return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
+    public static void addItemsToMainTab(CreativeModeTab.Output output) {
+        output.accept(LUNAR_SAPPHIRE_SHARD.get());
+        output.accept(LUNAR_SAPPHIRE_BLOCK.get());
+        output.accept(BUDDING_LUNAR_SAPPHIRE_BLOCK.get());
+        output.accept(LUNAR_SAPPHIRE_CLUSTER.get());
+        output.accept(LARGE_LUNAR_SAPPHIRE_BUD.get());
+        output.accept(MEDIUM_LUNAR_SAPPHIRE_BUD.get());
+        output.accept(SMALL_LUNAR_SAPPHIRE_BUD.get());
+    }
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
     }
