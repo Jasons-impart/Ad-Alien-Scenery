@@ -1,0 +1,38 @@
+[218月2024 11:20:32.166] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Administrator\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.5, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, adalienscenery, --all, --output, F:\Ad-Alien-Scenery\src\generated\resources, --existing, F:\Ad-Alien-Scenery\src\main\resources]
+[218月2024 11:20:32.172] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.3.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[218月2024 11:20:32.330] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[218月2024 11:20:32.399] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23132!/ Service=ModLauncher Env=CLIENT
+[218月2024 11:20:32.827] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.5\4c589c051ef533f8898fb5d83514d4186faa0eeb\javafmllanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[218月2024 11:20:32.830] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.5\8251eee89645828a05f3b04f5df8945baa0743c4\lowcodelanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[218月2024 11:20:32.835] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.5\53971d6fe08ae7ce74a72fa7d14a82de70a8bd1\mclanguage-1.20.1-47.3.5.jar is missing mods.toml file
+[218月2024 11:20:32.838] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.5\cc377ceca3274bd1e429c0da17f73720ce29a4d6\fmlcore-1.20.1-47.3.5.jar is missing mods.toml file
+[218月2024 11:20:33.162] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[218月2024 11:20:35.133] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[218月2024 11:20:35.143] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Administrator\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, adalienscenery, --all, --output, F:\Ad-Alien-Scenery\src\generated\resources, --existing, F:\Ad-Alien-Scenery\src\main\resources]
+[218月2024 11:20:35.866] [main/INFO] [mixin/]: Remapping refMap jade.refmap.json using F:\Ad-Alien-Scenery/build/createSrgToMcp/output.srg
+[218月2024 11:20:35.871] [main/INFO] [mixin/]: Remapping refMap ad_astra-common-1.20.1-common-refmap.json using F:\Ad-Alien-Scenery/build/createSrgToMcp/output.srg
+[218月2024 11:20:35.873] [main/INFO] [mixin/]: Remapping refMap ad_astra-forge-1.20.1-forge-refmap.json using F:\Ad-Alien-Scenery/build/createSrgToMcp/output.srg
+[218月2024 11:20:36.568] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [adalienscenery]
+[218月2024 11:20:36.705] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[218月2024 11:20:43.317] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.5, for MC 1.20.1 with MCP 20230612.114412
+[218月2024 11:20:43.319] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.5 Initialized
+[218月2024 11:20:43.758] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[218月2024 11:20:43.768] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 5.929 ms
+[218月2024 11:20:56.458] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Administrator/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.5_mapped_official_1.20.1/forge-1.20.1-47.3.5_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[218月2024 11:20:56.460] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Administrator/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.5_mapped_official_1.20.1/forge-1.20.1-47.3.5_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[218月2024 11:20:56.747] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id adalienscenery
+[218月2024 11:20:57.047] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id adalienscenery finished after 299 ms
+[218月2024 11:20:57.047] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[218月2024 11:20:57.074] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 26 ms
+[218月2024 11:20:57.074] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[218月2024 11:20:57.160] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 85 ms
+[218月2024 11:20:57.160] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
+[218月2024 11:20:57.162] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 1 ms
+[218月2024 11:20:57.162] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: zh_cn
+[218月2024 11:20:57.163] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: zh_cn finished after 0 ms
+[218月2024 11:20:57.163] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: adalienscenery
+[218月2024 11:20:57.176] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: adalienscenery finished after 12 ms
+[218月2024 11:20:57.176] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: adalienscenery
+[218月2024 11:20:57.322] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: adalienscenery finished after 145 ms
+[218月2024 11:20:57.322] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 575 ms
+[218月2024 11:20:57.333] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 35, old count: 31, new count: 35, removed stale: 1, written: 5

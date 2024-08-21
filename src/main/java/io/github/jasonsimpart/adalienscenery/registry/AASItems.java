@@ -10,8 +10,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.util.List;
-
 public class AASItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, AdAlienScenery.MODID);
 
@@ -23,6 +21,11 @@ public class AASItems {
     public static final RegistryObject<Item> LARGE_LUNAR_SAPPHIRE_BUD = register(AASBlocks.LARGE_LUNAR_SAPPHIRE_BUD);
     public static final RegistryObject<Item> MEDIUM_LUNAR_SAPPHIRE_BUD = register(AASBlocks.MEDIUM_LUNAR_SAPPHIRE_BUD);
     public static final RegistryObject<Item> SMALL_LUNAR_SAPPHIRE_BUD = register(AASBlocks.SMALL_LUNAR_SAPPHIRE_BUD);
+
+    // Ores
+
+    public static final RegistryObject<Item> RAW_ILMENITE = register("raw_ilmenite");
+    public static final RegistryObject<Item> MOON_ILMENITE_ORE = register(AASBlocks.MOON_ILMENITE_ORE);
 
     public static RegistryObject<Item> register(String name) {
         return ITEMS.register(name, () -> new Item(new Item.Properties()));
@@ -39,6 +42,8 @@ public class AASItems {
         output.accept(LARGE_LUNAR_SAPPHIRE_BUD.get());
         output.accept(MEDIUM_LUNAR_SAPPHIRE_BUD.get());
         output.accept(SMALL_LUNAR_SAPPHIRE_BUD.get());
+        output.accept(RAW_ILMENITE.get());
+        output.accept(MOON_ILMENITE_ORE.get());
     }
     public static void register(IEventBus bus) {
         ITEMS.register(bus);

@@ -5,6 +5,7 @@ import io.github.jasonsimpart.adalienscenery.block.BuddingLunarSapphireBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,9 @@ public class AASBlocks {
     public static final RegistryObject<Block> LARGE_LUNAR_SAPPHIRE_BUD = BLOCKS.register("large_lunar_sapphire_bud", () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(LUNAR_SAPPHIRE_CLUSTER.get()).sound(SoundType.MEDIUM_AMETHYST_BUD).forceSolidOn().lightLevel(blockState -> 4).pushReaction(PushReaction.DESTROY)));
     public static final RegistryObject<Block> MEDIUM_LUNAR_SAPPHIRE_BUD = BLOCKS.register("medium_lunar_sapphire_bud", () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(LUNAR_SAPPHIRE_CLUSTER.get()).sound(SoundType.LARGE_AMETHYST_BUD).forceSolidOn().lightLevel(blockState -> 2).pushReaction(PushReaction.DESTROY)));
     public static final RegistryObject<Block> SMALL_LUNAR_SAPPHIRE_BUD = BLOCKS.register("small_lunar_sapphire_bud", () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(LUNAR_SAPPHIRE_CLUSTER.get()).sound(SoundType.SMALL_AMETHYST_BUD).forceSolidOn().lightLevel(blockState -> 1).pushReaction(PushReaction.DESTROY)));
+
+    // Ores
+    public static final RegistryObject<Block> MOON_ILMENITE_ORE = BLOCKS.register("moon_ilmenite_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(3.0F, 3.0F)));
 
     public static void register(IEventBus bus) {
         BLOCKS.register(bus);

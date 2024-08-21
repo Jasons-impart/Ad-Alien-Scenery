@@ -22,7 +22,9 @@ public class DataEventHandler {
         PackOutput packOutput = generator.getPackOutput();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
+        generator.addProvider(event.includeServer(), new AASBlockTagsProvider(packOutput, lookupProvider, existingFileHelper));
         generator.addProvider(event.includeServer(), new WorldGenerationProvider(packOutput, lookupProvider));
+        generator.addProvider(event.includeServer(), AASLootTableProvider.create(packOutput));
         generator.addProvider(event.includeClient(), new EnglishLanguageProvider(packOutput));
         generator.addProvider(event.includeClient(), new ChineseLanguageProvider(packOutput));
         generator.addProvider(event.includeClient(), new ItemModelProvider(packOutput, existingFileHelper));

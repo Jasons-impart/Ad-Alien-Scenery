@@ -1,0 +1,5 @@
+// 1.20.1	2024-08-21T11:20:57.3282363	Tags for minecraft:block mod id adalienscenery
+c17168a4b8032468e1c4e47d8d0fbbf648e5e025 data/forge/tags/blocks/storage_blocks.json
+c17168a4b8032468e1c4e47d8d0fbbf648e5e025 data/forge/tags/blocks/storage_blocks/lunar_sapphire.json
+eea4973bb4d64c6094fcf2191ff606f89346ce71 data/minecraft/tags/blocks/mineable/pickaxe.json
+d6ba4f14606beff28dc53a621174390fbf6e23ec data/minecraft/tags/blocks/needs_iron_tool.json
